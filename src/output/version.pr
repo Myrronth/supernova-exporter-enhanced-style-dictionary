@@ -1,0 +1,12 @@
+{* Example Output
+
+1.0.0
+Initial release
+
+*}
+{[ let brand = ds.currentBrand() /]}
+{[ const designSystemVersion = ds.currentDesignSystemVersion(brand.id) /]}
+{[ const version = designSystemVersion.version /]}
+{[ const name = designSystemVersion.name /]}
+{{ version }}
+{{ name }}

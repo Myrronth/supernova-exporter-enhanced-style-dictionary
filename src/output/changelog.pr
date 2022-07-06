@@ -1,0 +1,17 @@
+{* Example Output
+
+### Added
+
+- Added secondary brand color
+
+### Changed
+
+- Improved primary brand color
+
+*}
+{[ let brand = ds.currentBrand() /]}
+{[ const designSystemVersion = ds.currentDesignSystemVersion(brand.id) /]}
+{[ const changelog = designSystemVersion.changelog /]}
+{[ if changelog ]}
+    {{ changelog }}
+{[/]}
