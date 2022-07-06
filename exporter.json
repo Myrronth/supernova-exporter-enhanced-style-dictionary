@@ -1,9 +1,9 @@
 {
-    "id": "io.supernova.style-dictionary",
+    "id": "com.tobiaskress.enhanced-style-dictionary",
     "name": "Style Dictionary",
     "description": "Style dictionary definition exporter",
-    "author": "Jiri Trecak",
-    "organization": "Supernova",
+    "author": "Tobias Kreß and Jiri Trecak",
+    "organization": "intive and Supernova",
     "source_dir": "src",
     "version": "1.2.1",
     "usesBrands": true,
