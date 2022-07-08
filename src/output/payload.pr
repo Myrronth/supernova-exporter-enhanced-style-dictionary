@@ -3,10 +3,23 @@
 1.0.0
 Initial release
 
+### Added
+
+- Added secondary brand color
+
+### Changed
+
+- Improved primary brand color
+
 *}
 {[ let brand = ds.currentBrand() /]}
 {[ const designSystemVersion = ds.currentDesignSystemVersion(brand.id) /]}
 {[ const version = designSystemVersion.version /]}
 {[ const name = designSystemVersion.name /]}
+{[ const changelog = designSystemVersion.changeLog /]}
 {{ version }}
 {{ name }}
+
+{[ if changelog ]}
+{{ changelog }}
+{[/]}

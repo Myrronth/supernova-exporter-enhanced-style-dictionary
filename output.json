@@ -1,12 +1,8 @@
 {
     "blueprints": [
         {
-            "invoke": "changelog.pr",
-            "write_to": "CHANGELOG.md"
-        },
-        {
-            "invoke": "version.pr",
-            "write_to": ".version"
+            "invoke": "payload.pr",
+            "write_to": ".supernova_payload"
         },
         {
             "invoke": "colors.pr",
