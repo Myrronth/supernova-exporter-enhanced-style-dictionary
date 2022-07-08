@@ -6,7 +6,7 @@
         },
         {
             "invoke": "version.pr",
-            "write_to": "VERSION.md"
+            "write_to": ".version"
         },
         {
             "invoke": "colors.pr",
