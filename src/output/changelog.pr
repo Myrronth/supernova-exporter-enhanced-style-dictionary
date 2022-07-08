@@ -11,7 +11,7 @@
 *}
 {[ let brand = ds.currentBrand() /]}
 {[ const designSystemVersion = ds.currentDesignSystemVersion(brand.id) /]}
-{[ const changelog = designSystemVersion.changelog /]}
+{[ const changelog = designSystemVersion.changeLog /]}
 {[ if changelog ]}
-    {{ changelog }}
+{{ changelog }}
 {[/]}
