@@ -17,6 +17,8 @@ Initial release
 {[ const version = designSystemVersion.version /]}
 {[ const name = designSystemVersion.name /]}
 {[ const changelog = designSystemVersion.changeLog /]}
+# Do not edit or delete this file as it is needed for CI/CD
+
 {{ version }}
 {{ name }}
 
